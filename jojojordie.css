@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: black;
+    /* background-image: url("C:/Users/jorda/project files/new-jojojordie/images/space/hubble-deep-field.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+    text-shadow: 2px 2px #2e2e2e;
+}
+
+.jojojordie-logo {
+    height: auto;
+    width: 10rem;
+    box-shadow:
+        inset 0 0 50px #fff,      /* inner white */
+        inset 20px 0 80px #f0f,   /* inner left magenta short */
+        inset -20px 0 80px #0ff,  /* inner right cyan short */
+        inset 20px 0 300px #f0f,  /* inner left magenta broad */
+        inset -20px 0 300px #0ff, /* inner right cyan broad */
+        0 0 50px #fff,            /* outer white */
+        -10px 0 80px #f0f,        /* outer left magenta */
+        10px 0 80px #0ff;         /* outer right cyan */
+}
+
+.jojojordie-logo:hover {
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.font-size-14 {
+    font-size: .875rem;
+}
+
+.font-size-16 {
+    font-size: 1rem;
+}
+
+.font-size-20 {
+    font-size: 1.25rem;
+}
+
+.font-size-24{
+    font-size: 1.5rem;
+}
+
+.font-size-32 {
+    font-size: 2rem;
+}
+
+
+.border-radius-32 {
+    border-radius: 2rem; 
+}
+
+.border-radius-top-32 {
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.border-radius-bottom-32 {
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.bg-red {
+    background-color: rgba(230, 38, 31, 0.80);
+}
+
+.bg-orange {
+    background-color:  rgba(235, 117, 50, 0.80);
+}
+
+.bg-yellow {
+    background-color:  rgba(247, 208, 56, 0.80);
+}
+
+.bg-green {
+    background-color: rgba(163, 224, 72, 0.80);
+}
+
+.bg-light-blue {
+    background-color: rgba(52, 187, 230, 0.80);
+}
+
+.bg-blue {
+    background-color: rgba(67, 85, 219, 0.80);
+}
+
+.bg-magenta {
+    background-color: rgb(234, 0, 255, 0.80);
+}
+
+.card-img-custom {
+    width: 100%;
+    height: 30%;
+}
+
+@media all and (min-width:768px) {
+    .font-size-md-16{
+        font-size: 1rem;
+    }
+    .font-size-md-18 {
+        font-size: 1.125rem;
+    }
+    .font-size-md-20 {
+        font-size: 1.25rem;
+    }
+    .font-size-md-22 {
+        font-size: 1.375rem;
+    }
+}
+   
+@media all and (min-width:992px) {
+    .font-size-lg-18 {
+        font-size: 1.125rem;
+    }
+    .font-size-lg-20 {
+        font-size: 1.25rem;
+    }
+}
