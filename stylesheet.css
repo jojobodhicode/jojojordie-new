@@ -4,7 +4,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: white;
-    background-color: black;
+    background: url("images/space/hubble-deep-field.jpg");
     /* background-image: url("C:/Users/jorda/project files/new-jojojordie/images/space/hubble-deep-field.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
@@ -36,6 +36,10 @@ h1, h2, h3, h4 {
     animation-duration: 5000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
+}
+
+.container {
+    background: black;
 }
 
 @keyframes spin {
