@@ -4,8 +4,8 @@
 body {
     font-family: "Roboto", sans-serif;
     color: white;
-    background: url("images/space/hubble-deep-field.jpg");
-    /* background-image: url("C:/Users/jorda/project files/new-jojojordie/images/space/hubble-deep-field.jpg"); */
+    background: black;
+    /* background: url("images/space/nebula_hires.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -39,7 +39,7 @@ h1, h2, h3, h4 {
 }
 
 .container {
-    background: black;
+    background: #5c5c5c;
 }
 
 @keyframes spin {
@@ -76,6 +76,10 @@ h1, h2, h3, h4 {
     border-radius: 2rem; 
 }
 
+.border-radius-16 {
+    border-radius: 1rem;
+}
+
 .border-radius-top-32 {
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
@@ -86,37 +90,53 @@ h1, h2, h3, h4 {
     border-bottom-right-radius: 2rem;
 }
 
-.bg-red {
-    background-color: rgba(230, 38, 31, 0.80);
-}
-
-.bg-orange {
-    background-color:  rgba(235, 117, 50, 0.80);
-}
-
-.bg-yellow {
-    background-color:  rgba(247, 208, 56, 0.80);
-}
-
-.bg-green {
-    background-color: rgba(163, 224, 72, 0.80);
-}
-
-.bg-light-blue {
-    background-color: rgba(52, 187, 230, 0.80);
-}
-
-.bg-blue {
-    background-color: rgba(67, 85, 219, 0.80);
-}
-
-.bg-magenta {
-    background-color: rgb(234, 0, 255, 0.80);
-}
-
 .card-img-custom {
     width: 100%;
     height: 30%;
+}
+
+.bg-grey {
+    background: #909090;
+}
+
+.bg-grey-2{
+    background: #aeaeae;
+}
+
+.bg-grey-3 {
+    background: #eeeeee;
+}
+
+.bg-red {
+    background: #F94144;
+}
+
+.bg-orange {
+    background: #F3722C;
+}
+
+.bg-tangerine {
+    background: #F8961E;
+}
+
+.bg-yellow{
+    background: #F9C74F;
+}
+
+.bg-green {
+    background: #90BE6D;
+}
+
+.bg-dark-green {
+    background: #43AA8B;
+}
+
+.bg-indego {
+    background: #577590;
+}
+
+.bg-slate-grey {
+    background: #b300b3;
 }
 
 @media all and (min-width:768px) {
