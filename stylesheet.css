@@ -4,7 +4,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: black;
-    background: black;
+    background: url('images/space/stars.jpg');
     /* background: url("images/space/hubble-deep-field.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
