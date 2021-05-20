@@ -138,6 +138,10 @@ h1, h2, h3, h4 {
     background: #b300b3;
 }
 
+.social-media-dimensions {
+    width: 3rem;
+}
+
 @media all and (min-width:768px) {
     .font-size-md-16{
         font-size: 1rem;
