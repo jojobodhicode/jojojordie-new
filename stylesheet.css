@@ -4,7 +4,8 @@
 body {
     font-family: "Roboto", sans-serif;
     color: black;
-    background: url("images/space/hubble-deep-field.jpg");
+    background: black;
+    /* background: url("images/space/hubble-deep-field.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
