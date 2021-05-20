@@ -3,9 +3,8 @@
 }
 body {
     font-family: "Roboto", sans-serif;
-    color: white;
-    background: black;
-    /* background: url("images/space/nebula_hires.jpg"); */
+    color: black;
+    background: url("images/space/hubble-deep-field.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -36,10 +35,6 @@ h1, h2, h3, h4 {
     animation-duration: 5000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
-}
-
-.container {
-    background: #5c5c5c;
 }
 
 @keyframes spin {
@@ -95,16 +90,20 @@ h1, h2, h3, h4 {
     height: 30%;
 }
 
+.container {
+    background: #6F6F6F;
+}
+
 .bg-grey {
-    background: #909090;
+    background: #9C9C9C;
 }
 
 .bg-grey-2{
-    background: #aeaeae;
+    background: #CCCCCC;
 }
 
 .bg-grey-3 {
-    background: #eeeeee;
+    background: #444444;
 }
 
 .bg-red {
